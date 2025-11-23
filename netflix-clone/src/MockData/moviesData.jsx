@@ -1,11 +1,11 @@
-const movies = [
+let movies = [
     {
         "id": 1,
         "title": "Avengers",
         "slug": "avengers",
         "genre": "Action",
         "year": "2012",
-        "img": "https://m.media-amazon.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SY1000_CR0,0,674,1000_AL_.jpg",
+        "img": "https://i.pinimg.com/736x/b1/7a/90/b17a905d8530ff69431812c4b5fa8b64.jpg",
         "description": "Avengers is a 2012 American superhero film based on the Marvel Comics superhero team of the same name, produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures.",
         "imdb_rating": 8.0,
         "actors": ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo"],
