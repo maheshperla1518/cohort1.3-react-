@@ -51,7 +51,7 @@ let Details = ()=>{
                 </div>
                 <div className="absolute hover:cursor-pointer bottom-60 right-20 border rounded-full border-white p-2" onClick={volumeHandler}>{volume ? <MutedIcon/> : <UnmutedIcon/>}</div>
                 <div className="w-full mx-auto px-12">
-                    <h1 className="font-black text-5xl text-white">More Like These</h1>
+                    <h1 className="font-black text-4xl text-white">More Like These</h1>
                     <div className="flex gap-2 mt-4 flex-wrap">
                         {
                             suggestions.map((movie)=><MoviesCard slug={movie.slug} img={movie.img}/>)
